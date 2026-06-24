@@ -9,9 +9,7 @@
 
 I'm a second-year undergraduate student majoring in **Data Science and Big Data Technology** at **East China Normal University**.
 
-I'm currently learning and working around:
-
-**LLM Systems · AI Infra · AI Agents · Full-stack Engineering**
+Currently learning and working around: **LLM Systems · AI Infra · AI Agents · Full-stack Engineering**
 
 Recently, my focus has been on **LLM serving infrastructure**, including SGLang, request routing, prefill/decode disaggregation, KV cache, benchmarking, and observability.
 
