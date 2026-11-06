@@ -1,32 +1,19 @@
-# Hi, I'm Frank / Hongwei Wang 👋
+# Hongwei Wang (Frank)
 
-**Data Science @ ECNU · AI Systems Intern @ SII SysLab**
+I’m a third-year undergraduate studying **Data Science and Big Data Technology** at **East China Normal University**. My work focuses on LLM serving and inference performance, especially how scheduling, caching, and parallelism affect latency and throughput.
 
----
- 
-## 👨‍💻 About Me           
-[![Blog](https://img.shields.io/badge/Blog-frank--whw.com-2F80ED?style=flat-square)](https://frank-whw.com)
+[Personal website](https://frank-whw.com/) · [Technical blog](https://frank-whw.com/blog)
 
-I'm a second-year undergraduate student majoring in **Data Science and Big Data Technology** at **East China Normal University**.
+## Experience
 
-Currently learning and working around: **LLM Systems · AI Infra · AI Agents · Full-stack Engineering**
+**AI Systems Software Intern, SysLab · Shanghai Innovation Institute** (May 2026–present)  
+Benchmark SGLang deployments on multi-GPU systems and use workload replay, ablation studies, and profiling to investigate performance bottlenecks.
 
-Recently, my focus has been on **LLM serving infrastructure**, including SGLang, request routing, prefill/decode disaggregation, KV cache, benchmarking, and observability.
+**AIGC R&D Intern · Tezign** (Feb–May 2026)  
+Contributed to multi-agent workflows and structured LLM outputs for AI products.
 
-Before moving deeper into AI infra, I worked on AI-native product engineering, including agents, tool use, structured LLM outputs, and product workflows.
+## Selected work
 
----
-
-## 💼 Experience
-
-**May 2026 – Present** ：AI Systems Software Intern @ Shanghai Innovation Institute
-
-**Feb 2026 – May 2026** ：AIGC R&D Intern @ Tezign
-
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats-fast.vercel.app/api?username=Frank-whw&show_icons=true&hide_border=true" />
-<img height="165" src="https://streak-stats.demolab.com?user=Frank-whw&hide_border=true" />
-
-</div>
+- Compared tensor-parallel configurations for DeepSeek-V4-Flash and traced a latency spike to DeepGEMM JIT compilation. [Performance write-up](https://frank-whw.com/blog/articles/deepseek-v4-flash-inference-optimization)
+- Proposed using a prefill execution-time budget to limit interruptions to active decoding. [SGLang RFC #45415](https://github.com/sgl-project/sglang/issues/45415)
+- Reproduced a CUDA IPC weight-cache loading failure for a model with MXFP4 expert weights. [SGLang issue #39762](https://github.com/sgl-project/sglang/issues/39762)
